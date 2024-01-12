@@ -11,21 +11,43 @@ html {
     height: 100vh;
     font-size: 14px;
 }
-
 body {
-    height: 100%;
-    background-color: #252222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    isolation: isolate;
+    position: relative;
 }
 
+body::after {
+    content: "";
+    height: 100vh;
+    position: absolute;
+    background-color: #252222e5;
+    inset: 0;
+    z-index: -1;
+}
 
 .container {
-    height: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
-    color: #252222;
+    align-items: center;
+}
+
+.logomarca {
+    width: 250px;
+    height: auto;
+    position: relative;
+    top: 50px;
 }
 
 a {
@@ -42,37 +64,31 @@ header {
     overflow: hidden;
 }
 
-header .logomarca {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-}
-
-header img {
-    top: 30px;
-    left: 50px;
-    width: 300px;
-    height: auto;
-    margin: 10px;
-}
-
-
-header h1 {
+h1 {
     font-size: 1.2em;
     color: #ffffff;
     font-weight: 200;
+    text-align: center;
 }
+
 
 section.botoes-links {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 25px;
+    padding: 70px 0;
+}
+
+a.link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
 
 a.link button {
-    width: 100%;
+    width: 90%;
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -84,7 +100,6 @@ a.link button {
     color: #fff;
     transition: .2s;
 }
-
 a.link {
     font-size: 1em;
 }
@@ -94,6 +109,7 @@ footer a.btn-footer:hover {
     transform: scale(1.05);
 }
 
+/* Estilos de rodapé */
 footer {
     text-align: center;
     margin: 10px;
@@ -116,12 +132,14 @@ footer p {
 
 footer img {
     max-width: 120px;
-
 }
+
+/* Estilos de logotipo */
 .logo {
     width: 50px;
 }
 
+/* Estilos de contêiner de texto */
 .container-txt {
     display: flex;
     flex-direction: column;
@@ -129,7 +147,6 @@ footer img {
     align-items: center;
     text-align: center;
     font-size: 12px;
-    font-family: "Poppins", sans-serif;
 }
 
 .container-txt a {
@@ -138,6 +155,4 @@ footer img {
     color: #F68E27;
 }
 
-.container-txt strong {
-    color: #F68E27;
-}
+
