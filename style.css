@@ -13,21 +13,10 @@ html{
 
 body{
     height: 100%;
-    background: linear-gradient(#a6fdb5,#028036);
+    background-color: #252222;
 }
 
-.wallpaper{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/Sem\ título-2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 0;
-    z-index: -1;
-    opacity: 8%;
-}
+
 .container{
     height: 100%;
     max-width: 550px;
@@ -45,7 +34,7 @@ a{
 }
 
 .degrade{
-    background: linear-gradient(to right, #056305, #043a14);
+    background: linear-gradient(to right, #F68E27, #8E3609);
 }
 
 header{
