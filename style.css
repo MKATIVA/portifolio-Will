@@ -76,7 +76,7 @@ section.botoes-links {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     padding: 70px 0;
 }
 
