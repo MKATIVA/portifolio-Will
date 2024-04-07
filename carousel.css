@@ -1,0 +1,47 @@
+.precoOficial {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    z-index: 999;
+
+    h1 {
+        text-transform: uppercase;
+        background: linear-gradient(to right, #ff8a00, #e52e71);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 500px;
+    height: auto;
+    margin: 0 3px;
+    border-radius: 20px;
+}
+
+/* Estilos opcionais para personalização */
+.slick-prev,
+.slick-next {
+    font-size: 24px;
+    color: #000;
+    z-index: 9999;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    color: #999;
+}
+
+.slick-prev {
+    left: -30px;
+}
+
+.slick-next {
+    right: -30px;
+}
