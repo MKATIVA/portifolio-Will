@@ -20,10 +20,18 @@
 
 .card img {
     width: 500px;
-    height: auto;
+    height: 300px;
     margin: 0 3px;
     border-radius: 20px;
+    object-fit: cover;
 }
+
+.card img:hover {
+    border: 3px solid #ff8a00;
+    padding: 5px;
+
+}
+
 
 /* Estilos opcionais para personalização */
 .slick-prev,
