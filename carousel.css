@@ -3,6 +3,7 @@
     width: 100%;
     margin: auto;
     z-index: 999;
+    text-transform: uppercase;
 
     h1 {
         text-transform: uppercase;
@@ -41,5 +42,6 @@
 }
 
 .slick-slide p {
-    color: #ff8a00;
+    color: #ffffff;
+    margin-bottom: 30px;
 }
