@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   $(".card").slick({
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -13,13 +13,13 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],

@@ -50,12 +50,14 @@ body::after {
 }
 
 .logomarca {
-    width: 250px;
+    width: 200px;
     height: auto;
     position: relative;
-    top: 50px;
+    top: 20px;
     z-index: 999;
+    margin-bottom: 40px;
 }
+
 
 .botoes-links {
 
@@ -81,7 +83,7 @@ section.botoes-links {
     justify-content: center;
     flex-direction: column;
     gap: 15px;
-    padding: 70px 0;
+    padding: 30px 0;
     z-index: 999;
 
     a.link {
@@ -122,9 +124,10 @@ section.botoes-links {
     text-align: center;
     font-size: 12px;
     z-index: 999;
+    margin: 20px;
 
     .logo {
-        width: 40px;
+        width: 25px;
     }
 
     .logoTitulo {
@@ -141,7 +144,7 @@ section.botoes-links {
         color: transparent;
         padding: 0 10px;
         font-weight: 700;
-        line-height: 1.5rem;
+        line-height: 3rem;
     }
 
     p {
@@ -150,6 +153,5 @@ section.botoes-links {
         color: #b8b8b8;
         font-weight: 300;
         margin: -15px 0px 0px 30px;
-        margin-bottom: 20px;
     }
 }
