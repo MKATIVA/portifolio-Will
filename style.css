@@ -164,7 +164,8 @@ section.botoes-links {
     z-index: 999;
     margin: 0 5%;
     padding: 30px;
-    width: 100%;
+    width: 90%;
+    border-radius: 20px;
     text-align: center;
     background-color: #313131af;
     overflow: hidden;
@@ -178,8 +179,9 @@ section.botoes-links {
         }
     }
 
-    img{
+    img {
         width: 300px;
+        padding: 10px;
     }
 
     .texto {
@@ -201,5 +203,10 @@ section.botoes-links {
             font-size: 15px;
         }
 
+        img {
+            width: 250px;
+            padding: 10px;
+        }
     }
+
 }
