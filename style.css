@@ -167,7 +167,8 @@ section.botoes-links {
     width: 90%;
     border-radius: 20px;
     text-align: center;
-    background-color: #313131af;
+    background: rgba(80, 80, 80, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     overflow: hidden;
 
     h2 {
