@@ -193,7 +193,6 @@ section.botoes-links {
         text-indent: 30px;
         max-width: 600px;
     }
-
 }
 
 @media (max-width:480px) {
@@ -209,5 +208,4 @@ section.botoes-links {
             padding: 10px;
         }
     }
-
 }

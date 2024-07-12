@@ -6,6 +6,7 @@
     text-transform: uppercase;
 
     h1 {
+        margin: 20px;
         text-transform: uppercase;
         background: linear-gradient(to right, #ff8a00, #e52e71);
         -webkit-background-clip: text;
@@ -37,11 +38,17 @@
 .slick-slide {
     height: 100%;
     width: 100%;
-    margin: 0 50px;
     cursor: pointer;
 }
 
 .slick-slide p {
     color: #ffffff;
+    font-size: 15px;
     margin-bottom: 30px;
+}
+
+@media (max-width:480px) {
+    .slick-slide {
+        padding: 0 40px;
+    }
 }
