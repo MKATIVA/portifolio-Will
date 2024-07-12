@@ -8,7 +8,7 @@
     h1 {
         margin: 20px;
         text-transform: uppercase;
-        background: linear-gradient(to right, #ff8a00, #e52e71);
+        background: linear-gradient(to right, #2de6e0, #e52e71);
         -webkit-background-clip: text;
         color: transparent;
     }
